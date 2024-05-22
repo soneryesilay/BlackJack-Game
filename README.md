@@ -1,4 +1,4 @@
-# Js ile Blackjack oyunu
+# JavaScript ile Blackjack oyunu
 
 ## Proje İçeriği
 
