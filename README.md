@@ -21,7 +21,7 @@ Clone the project:
 
 
 ```bash
-git clone https://github.com/soneryesilay/JS-BlackJackGame..git
+git clone https://github.com/soneryesilay/JavaScript-BlackJackGame.git
 ```
 Navigate to the project directory and compile/run the project:
 ```bash
