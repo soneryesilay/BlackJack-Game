@@ -1,0 +1,65 @@
+body {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    background-color: #333; 
+    color: white;
+    padding: 20px;
+}
+
+h2 {
+    color: #FFD700; 
+    text-shadow: 2px 2px 4px #000000; 
+    font-size: 32px; 
+}
+
+
+#dealer-cards, #your-cards {
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#dealer-cards img, #your-cards img {
+    height: 200px; 
+    width: 140px; 
+    margin: 10px; 
+    border: 2px solid #FFD700;
+    border-radius: 8px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    background-color: #007bff; 
+    color: white;
+    padding: 20px 40px; 
+    border: none;
+    border-radius: 8px;
+    font-size: 24px; 
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 15px; 
+}
+
+button:hover {
+    background-color: #0056b3; 
+    transform: translateY(-2px);
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+#results {
+    font-size: 36px; 
+    margin-top: 40px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+@media (max-width: 768px) { 
+    #dealer-cards img, #your-cards img {
+        height: 150px;
+        width: 100px;
+    }
+    button {
+        font-size: 18px;
+        padding: 15px 30px;
+    }
+}
