@@ -21,6 +21,6 @@ Clone the project:
 
 
 ```bash
-git clone https://github.com/soneryesilay/JavaScript-BlackJackGame.git
+git clone https://github.com/soneryesilay/BlackJack-Game.git
 ```
 
