@@ -2,8 +2,8 @@
 
 ## Proje İçeriği
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JS
 
 
